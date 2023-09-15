@@ -7,8 +7,8 @@ module.exports = {
         "/node_modules/"
     ],
     testMatch: [
-        "src/__tests__/**/*.js?(x)",
-        "src/?(*.)+(spec|test).js?(x)"
+        "**/__tests__/**/*.js?(x)",
+        "**/?(*.)+(spec|test).js?(x)"
     ],
     testPathIgnorePatterns: [
         "/node_modules/"

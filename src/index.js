@@ -1,3 +1,7 @@
+import * as dotenv from "dotenv";
+
+dotenv.config();
+
 const getUserByEmail = () => {}
 const createUser = () => {}
 const authentication = () => {}
